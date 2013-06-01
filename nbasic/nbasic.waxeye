@@ -1,0 +1,53 @@
+# main program
+program <- *(statement endl) ws
+
+# statements
+statement <- ws (endstat | inputstat | printstat | ifstat | whilestat | assignstat | dostat)
+endstat <- :END ?factor
+inputstat <- :INPUT ?(STRING :COMMA) ID
+printstat <- :PRINT exprlist
+ifstat <- (:IF cond :THEN (!ifstat statement) ?(:ELSE (!ifstat statement)) ) 
+        | (:IF cond :THEN endl thenclause ?(:ELSE endl elseclause) :END :IF)
+thenclause <- +(statement endl)
+elseclause <- +(statement endl)
+whilestat <- :WHILE cond endl +(statement endl) :WEND
+assignstat <- ?:LET ID :ASSIGN expression
+dostat <- :DO endl +(statement endl) :WHILE cond
+
+
+# expressions
+cond <- expression RELOP expression
+exprlist <- (STRING|expression) *(:COMMA (STRING|expression))
+expression <- ?ADDOP term *(ADDOP term)
+term <- factor *(MULTOP factor)
+factor <- ID | NUM | :LPAREN expression :RPAREN
+
+# keywords
+END <- "end" ws
+PRINT <- "print" ws
+INPUT <- "input" ws
+IF <- "if" ws
+THEN <- "then" ws
+ELSE <- "else" ws
+WHILE <- "while" ws
+WEND <- "wend" ws
+LET <- "let" ws
+DO <- "do" ws
+
+# literals
+ID <- [a-zA-Z_] *[a-zA-Z_-0-9] ws
+NUM <- [1-9] *[0-9] ws
+STRING <- :'"' +( !["\n\r] .) :'"' ws
+
+# symbols
+COMMA <- ',' ws
+LPAREN <- '(' ws
+RPAREN <- ')' ws
+ADDOP <- ('+'|'-') ws
+MULTOP <- ('*'|'/') ws
+RELOP <- ('='|'<'|'>'|'>='|'<='|'<>') ws
+ASSIGN <- '=' ws
+
+# ignorables
+endl <: *[\n\r]
+ws <: *[ \t]
