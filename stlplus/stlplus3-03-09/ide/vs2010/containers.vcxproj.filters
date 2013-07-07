@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="../../containers/containers.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/triple.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/containers_fixes.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/copy_functors.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/digraph.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/exceptions.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/foursome.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/hash.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/matrix.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/ntree.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/safe_iterator.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/simple_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../containers/smart_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../containers/triple.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/smart_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/simple_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/safe_iterator.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/ntree.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/matrix.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/hash.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/foursome.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../containers/digraph.tpp">
+      <Filter>Templates</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{8dc5a42d-7c91-4c86-8de1-c3377561f266}</UniqueIdentifier>
+      <Extensions>*.hpp</Extensions>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{db8dcfb3-c3f0-4088-9041-8d5807acf1f6}</UniqueIdentifier>
+      <Extensions>*.tpp</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>

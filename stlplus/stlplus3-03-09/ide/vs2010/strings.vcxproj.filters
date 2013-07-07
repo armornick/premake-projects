@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="../../strings/print_address.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_vector.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/print_bool.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/print_cstring.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/print_float.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/print_inf.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/print_int.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/print_string.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/print_vector.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_address.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_bool.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_cstring.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_float.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_inf.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_int.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_string.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="../../strings/string_utilities.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../../strings/format_types.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_address.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_basic.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_bitset.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_bool.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_cstring.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_digraph.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_float.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_foursome.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_hash.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_inf.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_int.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_list.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_map.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_matrix.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_ntree.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_pair.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_pointer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_sequence.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_set.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_simple_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_smart_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_stl.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_stlplus.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_string.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_triple.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/print_vector.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_address.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_basic.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_bitset.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_bool.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_cstring.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_digraph.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_float.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_foursome.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_hash.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_inf.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_int.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_list.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_map.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_matrix.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_ntree.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_pair.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_pointer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_sequence.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_set.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_simple_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_smart_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_stl.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_stlplus.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_string.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_triple.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_utilities.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/string_vector.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/strings.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="../../strings/strings_fixes.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings\print_shared_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strings\string_shared_ptr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../strings/print_bitset.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_digraph.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_foursome.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_hash.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_list.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_smart_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_map.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_matrix.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_ntree.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_pair.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_pointer.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_sequence.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_set.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_simple_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_list.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_smart_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_map.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_matrix.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_ntree.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_pair.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_pointer.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_sequence.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_set.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_simple_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_triple.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/print_vector.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_bitset.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_digraph.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_foursome.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_hash.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_triple.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="../../strings/string_vector.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="..\..\strings\string_shared_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+    <None Include="..\..\strings\print_shared_ptr.tpp">
+      <Filter>Templates</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{f0ae2fd6-4bc1-4251-816c-90a65d8c7f79}</UniqueIdentifier>
+      <Extensions>*.hpp</Extensions>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{9fbd0776-a726-49a8-a351-3b690812f49e}</UniqueIdentifier>
+      <Extensions>*.tpp</Extensions>
+    </Filter>
+    <Filter Include="Bodies">
+      <UniqueIdentifier>{9a256116-3751-4d16-9021-88da0ea5c1b3}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>
